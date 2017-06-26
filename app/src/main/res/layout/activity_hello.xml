@@ -25,4 +25,14 @@
         tools:text="Hello Kotlin"
         tools:ignore="HardcodedText" />
 
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Holo.Light.SearchResult"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="157dp"
+        tools:text="Chronometre" />
+
 </android.support.constraint.ConstraintLayout>
