@@ -9,13 +9,6 @@
     tools:layout_editor_absoluteX="0dp">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        tools:layout_editor_absoluteY="247dp"
-        tools:layout_editor_absoluteX="154dp" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,6 +17,3 @@
         tools:layout_editor_absoluteY="101dp"
         tools:text="Hello Kotlin"
         tools:ignore="HardcodedText" />
-
-
-</android.support.constraint.ConstraintLayout>
