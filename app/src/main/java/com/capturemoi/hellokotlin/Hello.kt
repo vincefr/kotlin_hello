@@ -7,6 +7,16 @@ class Hello : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hello)
+
+        relativeLayout {
+            padding = dp(32)
+            id = R.id.login_main_container
+
+            imageView(R.drawable.ic_logo).lparams {
+                centerHorizontally()
+            }
+        }
+
+        setupPresenter()
     }
 }
